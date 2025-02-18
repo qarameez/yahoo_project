@@ -51,7 +51,7 @@ try:
     log(f"Volume: {volume}")
 
 except Exception as e:
-    log(f"An error occurred: {e}")
+    log(f"An error occurred : {e}")
     raise  # Re-raise the exception to fail the test
 
 finally:
